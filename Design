@@ -1,0 +1,105 @@
+/* Logo */
+
+.logo{
+    display: flex;
+    gap: 20px;
+}
+
+.logo button{
+    padding: 0px 25px 0px 25px; 
+    border-radius: 10px; 
+    background: transparent; 
+    color: white; 
+    border-color: white; 
+    border-width: 2px;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+.logo button:hover {
+    background-image: linear-gradient( 83.2deg,  rgba(90, 38, 168, 0.521) 10.8%, rgba(45, 37, 163, 0.562) 94.3% );
+}
+
+/* backgorund */
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+/* Maintext */
+
+.maintext{
+   margin-top: 28vh;
+   color: white;
+}
+
+.maintext button{
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px; 
+    font-weight: bold;
+    background: transparent;  
+    color: white; 
+    border-color: white; 
+    border-width: 2px;
+    
+}
+.maintext button:hover {
+    background-image: linear-gradient( 83.2deg,  rgba(90, 38, 168, 0.521) 10.8%, rgba(45, 37, 163, 0.562) 94.3% );
+}
+
+/* Buttons */
+
+.mainbutton{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;         
+    justify-content: space-around;
+    font-size: 15px;
+    margin-top: 100px;
+    
+    
+}
+
+.mainbutton button{
+    font-weight: bold;
+    width: 350px;
+    border-radius: 5px;
+    padding: 25px;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+.mainbutton button:hover {
+    background-image: linear-gradient( 83.2deg,  rgba(90, 38, 168, 0.521) 10.8%, rgba(45, 37, 163, 0.562) 94.3% );
+}
+
+/* Footer */
+
+.footer{
+    margin-bottom: 100px;
+}
+
+.footertext h2{
+    font-size: 14px;
+}
+
+
+
+.rightmark h3{
+    font-size: 12px;
+}
+
+
+
